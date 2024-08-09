@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <a href="https://studiolab.sagemaker.aws/import/github/wilzamguerrero/blendz_colab/blob/main/BLNDZ.ipynb?theme=dark">
+  <a href="https://colab.research.google.com/github/wilzamguerrero/blendz_colab/blob/main/BLNDZ.ipynb?theme=dark">
   <img src="https://github.com/wilzamguerrero/blendz_colab/blob/main/Custom/blender_icon.png" alt="image">
 </a></p>
 
