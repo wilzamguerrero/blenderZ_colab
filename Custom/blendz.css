@@ -1,0 +1,22 @@
+.gradio-container.gradio-container-4-41-0.svelte-wpkpf6.app {
+  padding-right: 20%;
+  padding-left: 20%;
+  min-height: initial;
+  flex-grow: 0 !important;
+  background: #383838 !important;
+
+}
+
+
+
+/* Fondo general de la aplicación */
+body, .gradio-container {
+  background-color: #383838;
+
+}
+
+
+.dark {
+  --background-fill-primary: #383838; 
+
+}
