@@ -16,32 +16,66 @@ background: #383838;
 }
 
 
-.dark {
---body-background-fill: #383838 !important;
-
-background-color: #383838 !important;
-
-
+/* Fondo general de la aplicación */
+body, .gradio-container {
+  background-color: #383838;
+  color: #ffffff; /* Color de texto claro para contraste */
 }
 
-
-
-@media (prefers-color-scheme: dark) {
-body {
-    background: #383838 !important;
-
-}
-}
-
-/*
-.svelte-1rjryqp {
-display: none !important;
+/* Estilo para los botones */
+button {
+  background-color: #555555; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto en los botones */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.show-api.svelte-1rjryqp {
-display: none !important;
+button:hover {
+  background-color: #777777; /* Color al pasar el ratón por encima */
 }
 
-.built-with.svelte-1rjryqp {
-display: none !important;
+/* Estilo para los cuadros de texto */
+input[type="text"], textarea, select {
+  background-color: #555555;
+  color: #ffffff;
+  border: 1px solid #777777;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Estilo para las cajas de salida */
+.gr-output, .gr-textbox, .gr-file {
+  background-color: #555555;
+  color: #ffffff;
+  border: 1px solid #777777;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Estilo para pestañas */
+.gr-tab {
+  background-color: #383838;
+  color: #ffffff;
+}
+
+/* Estilo para la barra de navegación de pestañas */
+.gr-tab-button {
+  background-color: #555555;
+  color: #ffffff;
+  border: 1px solid #777777;
+  border-radius: 5px;
+}
+
+.gr-tab-button:hover {
+  background-color: #777777;
+}
+
+/* Otros ajustes generales */
+.gr-box {
+  background-color: #383838;
+  color: #ffffff;
+  border: 1px solid #555555;
+  border-radius: 5px;
 }
