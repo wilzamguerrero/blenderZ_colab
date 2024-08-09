@@ -98,11 +98,7 @@
 
 
 .dark {
-  --body-background-fill: #383838 !important;
-  --background-fill-secondary: #383838 !important;
-  --block-label-background-fill: #383838 !important;
-  --panel-background-fill: #383838 !important;
-  --block-background-fill: #383838 !important;
+
   background-color: #383838 !important;
 
   
@@ -113,7 +109,6 @@
 @media (prefers-color-scheme: dark) {
   body {
       background: #383838 !important;
-      color: var(--col-dark); /* Puedes mantener el color de texto existente */
   }
 }
 
@@ -129,3 +124,8 @@
 .built-with.svelte-1rjryqp {
   display: none !important;
 }
+
+
+.button.svelte-1uw5tnk {
+    margin-bottom: -1px;
+    border: 2px solid transparent;
