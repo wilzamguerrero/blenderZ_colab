@@ -1,107 +1,50 @@
-@font-face {
-  font-family: 'TMCandor';
-  src: url('/file=style/fonts/TMCandor-Light.otf') format('opentype');
-  font-weight: 300;
+.gradio-container.gradio-container-4-41-0.svelte-wpkpf6.app {
+  padding-right: 20%;
+  padding-left: 20%;
+  min-height: initial;
+  flex-grow: 0 !important;
+  background: #383838;
+
 }
 
-@font-face {
-  font-family: 'TMCandor';
-  src: url('/file=style/fonts/TMCandor-LightItalic.otf') format('opentype');
-  font-weight: 300;
-  font-style: italic;
+.contain.svelte-1rjryqp {
+background: #383838;
 }
 
-@font-face {
-  font-family: 'TMCandor';
-  src: url('/file=style/fonts/TMCandor-Regular.otf') format('opentype');
-  font-weight: normal;
+[id^="component-"] {
+background: #383838;
 }
 
-@font-face {
-  font-family: 'TMCandor';
-  src: url('/file=style/fonts/TMCandor-RegularItalic.otf') format('opentype');
-  font-weight: normal;
-  font-style: italic;
+
+.dark {
+--body-background-fill: #383838 !important;
+--background-fill-secondary: #383838 !important;
+--block-label-background-fill: #383838 !important;
+--panel-background-fill: #383838 !important;
+--block-background-fill: #383838 !important;
+background-color: #383838 !important;
+
+
 }
 
-@font-face {
-  font-family: 'TMCandor';
-  src: url('/file=style/fonts/TMCandor-Bold.otf') format('opentype');
-  font-weight: bold;
+
+
+@media (prefers-color-scheme: dark) {
+body {
+    background: #383838 !important;
+    color: var(--col-dark); /* Puedes mantener el color de texto existente */
+}
 }
 
-@font-face {
-  font-family: 'TMCandor';
-  src: url('/file=style/fonts/TMCandor-BoldItalic.otf') format('opentype');
-  font-weight: bold;
-  font-style: italic;
+/*
+.svelte-1rjryqp {
+display: none !important;
 }
 
-@font-face {
-  font-family: 'TMCandorHeadline';
-  src: url('/file=style/fonts/TMCandor-Headline.otf') format('opentype');
-  font-weight: 700;
+.show-api.svelte-1rjryqp {
+display: none !important;
 }
 
-:root {
-  --font: 'TMCandor', sans-serif !important;
-  --font-headline: 'TMCandorHeadline', sans-serif !important;
-  --block-title-text-weight: 300 !important;
-  --block-shadow: 0.25rem .375rem -.0625rem rgba(0,0,0,.08);
-  --block-radius: 0px !important;
-  --block-border-width: 0px !important;
-  --body-text-weight: 300 !important;
-  --color-cold-black: #000A1E !important;
-  --color-white: #FFFFFF;
-  --color-blue: #00283C;
-  --color-orange: #FA6432;
-  --color-button-base: #64C8C8;
-  --color-button-hover: #00647D;
-}
-
-::selection {
-  background: var(--color-orange) !important;
-  color: var(--color-white) !important;
-}
-
-body, .gradio-container * {
-  font-family: var(--font) !important;
-  font-weight: 300 !important;
-  color: var(--color-cold-black) !important;
-}
-
-.gradio-container h1 {
-  font-family: var(--font-headline) !important;
-  font-weight: 700 !important;
-  color: var(--color-orange) !important;
-  text-align: left !important;
-}
-
-.gr-description {
-  font-family: var(--font) !important;
-  font-weight: bold !important;
-  color: var(--color-cold-black) !important;
-}
-
-button {
-  font-family: var(--font) !important;
-  font-weight: normal !important;
-font-size: 1.1875rem !important;
-  background-color: var(--color-button-base) !important;
-  color: var(--color-blue) !important;
-  border: none;
-  border-radius: 0px;
-  padding: 10px 0px 8px 0px;
-  background-image: none;
-}
-
-button:hover {
-  background-color: var(--color-button-hover) !important;
-  color: var(--color-white) !important;
-  background-image: none;
-}
-
-/* Hide the Gradio footer */
-footer {
-  display: none !important;
+.built-with.svelte-1rjryqp {
+display: none !important;
 }
