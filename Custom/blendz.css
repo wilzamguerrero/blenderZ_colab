@@ -21,3 +21,7 @@ body, .gradio-container {
   --body-background-fill: #383838 !important;
 
 }
+
+gradio-app {
+  background: #383838 !important;
+}
